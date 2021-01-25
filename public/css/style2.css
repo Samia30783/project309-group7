@@ -1,0 +1,23 @@
+/* .jumbotron{
+	background: #9575CD;
+	padding: 70px 30px 70px 30px;
+	color: floralwhite; */
+
+.row-header{
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+	color: white;
+}
+.row-content{
+	border-bottom: 1px ridge;
+	padding: 50px 0px 50px 0px;
+	margin:0px auto;
+	min-height: 400px;
+
+}
+.footer{
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+	background: #D1C4E9;
+	color: black;
+}

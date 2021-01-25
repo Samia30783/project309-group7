@@ -1,0 +1,174 @@
+.row-header{
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+	color: white;
+}
+
+.row-content{
+	margin:0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+.footer{
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+	background: #D1C4E9;
+	color: black;
+}
+.jumbotron{
+    
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #9575CD;
+	color: floralwhite;
+	width: 100%;
+}
+/*
+.navbar-brand{
+	color: white;
+}
+*/
+body{
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+.navbar-dark{
+	background-color: #512DA8;
+}
+
+.big-banner{
+	background-image: url('covar.jpg');
+	
+	height: 300px; 
+	padding-top: 150px;
+}
+
+.images{
+	background-image: url("/images/image1.jpg");
+	background-size: 100%;
+}
+
+.im-1{
+	background-image: url("/images/men.jpg");
+	width: 500px;
+	height: 300px;
+}
+.im-2{
+	background-image: url("/images/couple.jpg");
+	width: 500px;
+	height: 300px;
+}
+.im-3{
+	background-image: url("/images/single.jpg");
+	width: 500px;
+	height: 300px;
+}
+.im-4{
+	background-image: url("/images/couple2.jpg");
+	width: 500px;
+	height: 300px;
+}
+.im-5{
+	background-image: url("/images/singlemen.jpg");
+	width: 500px;
+	height: 300px;
+}
+.im-6{
+	background-image: url("/images/couple3.jpg");
+	width: 500px;
+	height: 300px;
+}
+.im-7{
+	background-image: url("/images/address.jpg");
+	width: 550px;
+	height: 400px;
+}
+
+.font-style{
+	font-size: larger;
+	color: red;
+	font-style: inherit;
+	font-weight: bolder;
+}
+
+
+.cover{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+body{
+	color: #434444;
+}
+
+hr{
+	width: 300px;
+	border: 3px solid #434444;
+}
+
+/* Product Grid */
+.product-grid{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.product-grid:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(67, 68, 68, 0.7);
+}
+.image:hover .overlay{
+	opacity: 1;
+}
+.detail{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.buy{
+	background-color: transparent;
+	color: #434444;
+	border-radius: 0;
+	border: 1px solid #434444;
+	width: 100%;
+	margin-top: 20px;
+}
+.buy:hover{
+	background-color: #434444;
+	color: #fff;
+}
+
+
+.banner{
+    width: 100%;
+    
+}
+
+.banner .banner-image{
+    width: 100%;
+    height: auto;
+}
+
